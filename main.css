@@ -1,0 +1,94 @@
+p{
+    /* Poppins Regular */
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size : 24px;
+}
+
+.poppins-bold{
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.rubik-mono {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo-simple{
+    display: flex;
+    justify-content: end;
+    height: 300px;
+    margin-right: 100px;
+
+    flex-wrap: wrap;
+}
+
+.home-project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.home-project-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-project p{
+    font-size : 32px;
+}
+
+.logo{
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+
+
+.offer-intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-heading{
+
+}
+
+.offer-tb1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-tb23{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

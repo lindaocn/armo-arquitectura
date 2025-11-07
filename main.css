@@ -39,7 +39,7 @@ h2{
 }
 
 h3{
-    font-family: "poppins", monospace;
+    font-family: "Rubik Mono One", monospace;
     font-size: 32px;
     font-weight: 400;
     font-style: normal;
@@ -101,6 +101,17 @@ h3{
     margin-top: 8rem;
 }
 
+.offer-tb{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    h3,
+    p{
+        text-align: center;
+    }
+}
+
 .offer-intro {
     display: flex;
     align-items: center;
@@ -130,8 +141,6 @@ h3{
     background-color: #10ADA3;
 }
 
-
-
 .offer-tb1{
     display: flex;
     flex-direction: column;
@@ -142,4 +151,21 @@ h3{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    .offer-tb2, .offer-tb3{
+        width: 30rem;
+    }
+    .offer-tb2{
+        h3,
+        p{
+            text-align: left;
+        }
+    }
+    .offer-tb3{
+        h3,
+        p{
+            text-align: right;
+        }
+    }
 }

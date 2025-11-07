@@ -1,14 +1,15 @@
+footer{
+    margin-top: 5rem;
+}
 .footer{
     display: flex;
     justify-content: space-between;
-
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: #D9D9D9;
     max-height: max-content;
 
-
     flex-wrap: wrap;
+    img{
+        width: fit-content;
+    }
 }
 
 .footer-left {
@@ -29,6 +30,7 @@
     padding: 10px;
 
     flex-wrap: wrap;
+    color: #10ADA3;
 }
 
 .telephone {
@@ -68,10 +70,8 @@
 .email {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10px;
     gap: 50px;
-
+    margin-left: 10px;
     flex-wrap: wrap;
 }
 
@@ -93,40 +93,25 @@
     
     flex-wrap: wrap;
 }
-
-.footer-contact{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-
-    flex-wrap: wrap;
-}
-
-.footer-team{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-
-    flex-wrap: wrap;
-}
-
+.footer-contact,
+.footer-team,
 .footer-projects{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-
-    flex-wrap: wrap;
+    background-color: #01306D;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    a{
+        color: white;
+    }
 }
 
 .footer-right-logo {
     width: 150px;
-    padding-bottom: 20px;
+
 }
 
 .body-footer-r{

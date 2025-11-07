@@ -1,4 +1,10 @@
-p{
+body{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+p,
+a
+{
     /* Poppins Regular */
     font-family: "poppins", sans-serif;
     font-weight: 400;
@@ -13,9 +19,9 @@ p{
 }
 
 .rubik-mono {
-  font-family: "Rubik Mono One", monospace;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 500;
+    font-style: normal;
 }
 
 h1{
@@ -33,7 +39,7 @@ h2{
 }
 
 h3{
-    font-family: "Rubik Mono One", monospace;
+    font-family: "poppins", monospace;
     font-size: 32px;
     font-weight: 400;
     font-style: normal;
@@ -48,17 +54,38 @@ h3{
     flex-wrap: wrap;
 }
 
+.home-slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    width: 100%;
+    h1{
+        color: #01306D;
+        text-align: center;
+    }
+}
+
 .home-project{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 8rem;
 
-    flex-wrap: wrap;
 }
 
 .home-project-text{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    h3,
+    h2{
+        margin: 0;
+    }
+    h2{
+        color: #10ADA3;
+    }
 }
 
 .home-project p{
@@ -70,16 +97,40 @@ h3{
     padding-bottom: 20px;
 }
 
-
+.offer{
+    margin-top: 8rem;
+}
 
 .offer-intro {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; /* Abstand zwischen Linie und Text */
 }
 
-.offer-heading{
-
+.offer-heading {
+    position: relative;
+    color: #10ADA3;
+    margin: 0;
 }
+
+/* horizontale Linien links und rechts */
+.offer-intro::before {
+    flex: 0.1; /* kürzere linke Linie */
+}
+
+.offer-intro::after {
+    flex: 0.9; /* längere rechte Linie */
+}
+
+.offer-intro::before,
+.offer-intro::after {
+    content: "";
+    height: 6px; /* Dicke der Linie */
+    background-color: #10ADA3;
+}
+
+
 
 .offer-tb1{
     display: flex;
